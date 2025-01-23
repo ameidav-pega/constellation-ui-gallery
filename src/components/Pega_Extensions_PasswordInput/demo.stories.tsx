@@ -28,6 +28,9 @@ export default {
       table: {
         disable: true
       }
+    },
+    showVisibilityToggle: {
+      control: 'boolean'
     }
   },
   component: PegaExtensionsPasswordInput
@@ -109,6 +112,7 @@ export const Default: Story = {
     readOnly: false,
     required: false,
     hideLabel: false,
-    hasSuggestions: false
+    hasSuggestions: false,
+    showVisibilityToggle: true
   }
 };
